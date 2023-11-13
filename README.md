@@ -12,3 +12,10 @@ More over it keep truck on your application code and status so whenever the dev 
 
 # How does Garden work?
 ![Alt Text](https://github.com/jkhazri/OC-demo-Garden/blob/main/src/garden.png)
+
+nwo we can start :
+
+1. Install Garden by using Installation script (Linux) :
+```bash
+   curl -sL https://get.garden.io/install.sh | bash
+```
