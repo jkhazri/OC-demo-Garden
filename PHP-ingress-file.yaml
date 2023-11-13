@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: php-app-ingress
+spec:
+  rules:
+  - host: docs-vcluster2-443.m1dns.com  # Set the desired domain or hostname here
+    http:
+      paths:
+      - path: /
+        pathType: Prefix # type the path that will will be used
+        backend:
+          service:
+            name: php-app-clusterip-service
+            port:
+              number: 20210
+
