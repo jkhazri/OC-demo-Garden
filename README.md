@@ -11,3 +11,4 @@ It supports a wide range of languages and frameworks, including Node.js, Python,
 More over it keep truck on your application code and status so whenever the dev team change anything in the code , the modification is made instantly on the app on your k8s cluster (No need to push , run the pipeline again or redeploy the code )
 
 # How does Garden work?
+![Alt Text](https://github.com/jkhazri/OC-demo-Garden/blob/main/src/garden.png)
